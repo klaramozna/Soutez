@@ -36,12 +36,12 @@ width: relative;
   
   .flex-item {
     background: tomato;
-    padding: 0%;
-    width: 25%;
+    padding: 1%;
+    width: 21%;
     height: 50%;
     margin-top: 10px;
     
-    line-height: 150px;
+    line-height: 500px;
     color: white;
     font-weight: bold;
     font-size: 3em;
