@@ -1,12 +1,47 @@
 
-#hornilista{
-  background: rgb(6,11,78);
-  position: fixed, relative;
+.bg-img {
+
+  background-image: url("https://images.pexels.com/photos/5439/earth-space.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+  min-height: 380px;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  position: relative;
+}
+
+
+.container {
+  position: absolute;
+  margin: 0;
   width: 100%;
-  height: 2.5em;
+}
+
+
+.topnav {
+ overflow: hidden;
+  background-color: #333;
+  opacity: 0.9;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
- vertical-align: text-bottom;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 }
 p{
 font-size: 1em;
@@ -19,6 +54,7 @@ padding-top: 1em;
 width: 100%;
 height: 19em;
 object-fit: cover;
+position: relative;
 }
 
 
