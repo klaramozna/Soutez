@@ -1,6 +1,6 @@
 
 #hornilista{
-  background: rgb(24,74,97);
+  background: rgb(6,11,78);
   position: fixed, relative;
   width: 100%;
   height: 2.5em;
@@ -16,7 +16,10 @@ padding-top: 1em;
 }
 
 #image {
-width: relative;
+width: 100%;
+}
+#img{
+  object-fit: fill;
 }
 
 .flex-container {
