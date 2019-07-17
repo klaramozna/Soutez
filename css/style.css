@@ -1,11 +1,41 @@
+h1{
+  
+  border-color: white;
+  border-width: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
 
 .bg-img {
-
-  background-image: url("https://images.pexels.com/photos/5439/earth-space.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-
-  min-height: 380px;
-
-
+  width: 100%;
+  background: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +115,7 @@ position: relative;
     font-size: 3em;
     text-align: center;
     font-family: Arial, sans-serif;
-    font-weight: bold
+    font-weight: bold;
   }
 body{
   background-color: black
