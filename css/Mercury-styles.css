@@ -7,8 +7,11 @@ html, body {
     margin: 0px;
     height: 15vh;
     font-family: Arial, sans-serif;
-    font-weight: bold
     font-size: 1em;
+}
+
+a{
+    text-decoration: none;
 }
 
 .header ul{
@@ -32,12 +35,12 @@ html, body {
     margin: 0px;
 }
 
-.other{
+.other a{
     color: #ffffff;
     background-color: #000000;
 }
 
- .current, .other:hover{
+ .current a, .current, .other:hover a, .other:hover{
     color: #000000;
     background-color: #ffffff;
 }
