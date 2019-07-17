@@ -34,12 +34,8 @@ li a:hover {
 
 
 .bg-img {
-  width: 100%
- 
-
-  ;
-
-
+  width: 100%;
+  background: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
