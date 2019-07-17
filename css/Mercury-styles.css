@@ -41,3 +41,33 @@ html, body {
     color: #000000;
     background-color: #ffffff;
 }
+
+
+/*content*/
+.content{
+    margin-top: 15vh;
+    padding: 7%;
+    display: flex;
+    margin: 2%;
+}
+
+.smaller{
+    color: #121212;
+}
+
+.content h1{
+    color: #001d4d;
+}
+
+.source{
+    font-style: italic;
+    color: #303030;
+}
+
+.source a{
+    color: #a3b8a0;
+}
+
+.content img{
+    width: 15vh;
+}
