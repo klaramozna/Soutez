@@ -62,7 +62,7 @@ position: relative;
     padding: 0;
     margin: 0;
     list-style: none;
-    
+    background-color: black;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -74,13 +74,13 @@ position: relative;
   }
   
   .flex-item {
-    background: tomato;
+    background: black;
     padding: 1%;
     width: 21%;
-    height: 50%;
+    height: 25%;
     margin-top: 10px;
     
-    line-height: 500px;
+    line-height: 25%;
     color: white;
     font-weight: bold;
     font-size: 3em;

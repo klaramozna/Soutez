@@ -1,0 +1,43 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    margin: 0px;
+    height: 15vh;
+    font-family: Arial, sans-serif;
+    font-weight: bold
+    font-size: 1em;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    width: 100vw;
+    padding: 0px;
+    background-color: #000000;
+}
+
+.header li{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    min-width: 7%;
+    margin: 0px;
+}
+
+.other{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+ .current, .other:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
