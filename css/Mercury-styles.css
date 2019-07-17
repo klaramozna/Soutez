@@ -45,9 +45,8 @@ html, body {
 /*content*/
 .content{
     margin-top: 15vh;
-    padding: 7%;
     display: flex;
-    margin: 2%;
+    margin: 2vh;
 }
 
 .smaller{
@@ -67,6 +66,19 @@ html, body {
     color: #a3b8a0;
 }
 
-.content img{
-    width: 15vh;
+.image-box{
+    min-width: 30vw;
+    margin-right: 3%;
+}
+
+.image-box img{
+    width: 100%; 
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #000000;   
+}
+
+.text-box{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 7%;
 }
