@@ -38,7 +38,7 @@ object-fit: cover;
   }
   
   .flex-item {
-    background: tomato;
+    background: black;
     padding: 1%;
     width: 21%;
     height: 50%;
