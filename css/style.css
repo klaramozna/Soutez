@@ -1,9 +1,9 @@
 
 .bg-img {
+  width: 100%
+ 
 
-  background-image: url("https://images.pexels.com/photos/5439/earth-space.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-
-  min-height: 380px;
+  ;
 
 
   background-position: center;
@@ -85,7 +85,7 @@ position: relative;
     font-size: 3em;
     text-align: center;
     font-family: Arial, sans-serif;
-    font-weight: bold
+    font-weight: bold;
   }
 body{
   background-color: black
