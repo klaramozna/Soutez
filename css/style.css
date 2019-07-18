@@ -78,11 +78,11 @@ p{
   display: flex;
   width: 100%;
   -webkit-flex-flow: row wrap;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
   
-  .flex-item {
+.flex-item {
   background: black;
   padding: 1%;
   width: 21%;
@@ -129,3 +129,4 @@ a{
   width: 100%;
   box-shadow: 3px 3px 5px #000000;
 }
+
