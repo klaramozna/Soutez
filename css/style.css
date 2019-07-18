@@ -26,6 +26,7 @@ html, body {
   height: 15vh;
   font-family: Arial, sans-serif;
   font-size: 1em;
+  width: 100%;
 }
 
 .header ul{
@@ -35,9 +36,9 @@ html, body {
   justify-content: flex-start;
   flex-wrap: wrap;
 
-  width: 100vw;
+  width: 100%;
   padding: 0px;
-  background-color: white;
+  background-color: black;
 }
 
 .header li{
@@ -58,9 +59,6 @@ html, body {
   color: #000000;
   background-color:rgb(112,111,176);
 }
-
-
-}
 p{
 font-size: 1em;
 padding: 0px;
@@ -76,33 +74,33 @@ position: relative;
 }
 
 .flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    background-color: black;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    width: 100%;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: black;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
   }
   
   .flex-item {
-    background: black;
-    padding: 1%;
-    width: 21%;
-    height: 25%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    line-height: 25%;
-    color: black;
-    font-size: 3em;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
+  background: black;
+  padding: 1%;
+  width: 21%;
+  height: 25%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 25%;
+  color: black;
+  font-size: 3em;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
   }
 body{
   background-color: black
@@ -121,4 +119,5 @@ a:hover {
   text-decoration: none;
   color:rgb(112,111,176);
   transition: all 0,5s ease;
+  font-size:10vh;
 }
