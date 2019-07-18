@@ -1,3 +1,14 @@
+.a{
+  position: absolute;
+}
+.b{
+ position:relative; 
+}
+
+
+
+
+
 h1{
   
   border-color: white;
@@ -47,7 +58,7 @@ html, body {
 
 .current, .other:hover{
   color: #000000;
-  background-color: #ffffff;
+  background-color:rgb(112,111,176);
 }
 
 
