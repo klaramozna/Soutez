@@ -38,6 +38,7 @@ a{
     min-width: 7%;
     margin: 0px;
     text-align: center;
+
 }
 
 .other a{
@@ -64,15 +65,19 @@ a{
 
 .content h1{
     color: #001d4d;
+    text-shadow: 4px 4px 4px #7688a6;
 }
 
 .source{
     font-style: italic;
     color: #303030;
+    width: 100%;
+    text-align: end;
 }
 
 .source a{
     color: #a3b8a0;
+    text-decoration-line: underline;
 }
 
 .image-box{
@@ -89,4 +94,8 @@ a{
 .text-box{
     padding-bottom: 7%;
     padding-right: 7%;
+}
+
+.text-box li{
+    margin-top: 2%;
 }
