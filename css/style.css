@@ -60,7 +60,7 @@ html, body {
 }
 
 
-}
+
 p{
 font-size: 1em;
 padding: 0px;
@@ -90,7 +90,7 @@ position: relative;
     justify-content: space-around;
   }
   
-  .flex-item {
+.flex-item {
     background: black;
     padding: 1%;
     width: 21%;
@@ -121,4 +121,5 @@ a:hover {
   text-decoration: none;
   color:rgb(112,111,176);
   transition: all 0,5s ease;
+  font-size: 10vh;
 }

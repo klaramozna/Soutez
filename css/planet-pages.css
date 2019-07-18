@@ -2,12 +2,16 @@ html, body {
     margin: 0px;
     padding: 0px;
 }
+p{
+    color: rgb(112,111,176);
+}
+
 
 .header{
     margin: 0px;
     height: 15vh;
-    font-family: Arial, sans-serif;
     font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -43,7 +47,7 @@ a{
 
  .current a, .current, .other:hover a, .other:hover{
     color: #000000;
-    background-color: #ffffff;
+    background-color: rgb(112,111,176);
 }
 
 
