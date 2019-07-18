@@ -48,6 +48,9 @@ html, body {
   color: #000000;
   background-color:rgb(112,111,176);
 }
+
+
+
 p{
   font-size: 1em;
   padding: 0px;
@@ -118,5 +121,8 @@ a{
   text-decoration: none;
   color:rgb(112,111,176);
   transition: all 0,5s ease;
-  font-size:10vh;
+  font-size: 10vh;
+}
+.imgwidth{
+  width: 100%;
 }
