@@ -47,7 +47,6 @@ a{
 }
 
  .current a, .current, .other:hover a, .other:hover{
-    color: #000000;
     background-color: rgb(112,111,176);
 }
 
