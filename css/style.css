@@ -13,9 +13,8 @@ html, body {
 .header{
   margin: 0px;
   height: 15vh;
-  font-family: Arial, sans-serif;
   font-size: 1em;
-  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header ul{
@@ -25,11 +24,10 @@ html, body {
   justify-content: flex-start;
   flex-wrap: wrap;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   padding: 0px;
-  background-color: black;
+  background-color: #000000;
 }
-
 .header li{
   padding-top: 5vh;
   padding-bottom: 5vh;
@@ -84,12 +82,14 @@ p{
   
 .flex-item {
   background: black;
-  padding: 1%;
+  padding: 4%;
   width: 21%;
   height: 25%;
   margin-top: 2em;
   margin-bottom: 2em;
-  line-height: 25%;
+  margin-right: 1%;
+  margin-left: 1%;
+  line-height: 20%;
   color: black;
   font-size: 3em;
   text-align: center;
