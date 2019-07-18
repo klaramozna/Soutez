@@ -16,8 +16,6 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 html, body {
   margin: 0px;
   padding: 0px;
@@ -39,7 +37,7 @@ html, body {
 
   width: 100vw;
   padding: 0px;
-  background-color: #000000;
+  background-color: white;
 }
 
 .header li{
@@ -53,7 +51,7 @@ html, body {
 
 .other{
   color: #ffffff;
-  background-color: #000000;
+  background-color: black;
 }
 
 .current, .other:hover{
@@ -62,7 +60,6 @@ html, body {
 }
 
 
-}
 }
 p{
 font-size: 1em;
@@ -78,7 +75,6 @@ object-fit: cover;
 position: relative;
 }
 
-
 .flex-container {
     padding: 0;
     margin: 0;
@@ -89,7 +85,7 @@ position: relative;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    
+    width: 100%;
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
   }
@@ -102,7 +98,7 @@ position: relative;
     margin-top: 2em;
     margin-bottom: 2em;
     line-height: 25%;
-    color: white;
+    color: black;
     font-size: 3em;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -112,6 +108,17 @@ body{
   background-color: black
 }
 h1{
+  color: black;
+  text-align: center;
+  position: top;
+}
+a {
   color: white;
-  text-align: center
+  text-decoration: none;
+  transition: 0,5s all ease;
+}
+a:hover {
+  text-decoration: none;
+  color:rgb(112,111,176);
+  transition: all 0,5s ease;
 }
