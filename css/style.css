@@ -24,7 +24,7 @@ html, body {
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-
+  text-align: center;
   width: 100%;
   padding: 0px;
   background-color: black;
@@ -63,6 +63,7 @@ p{
   height: 19em;
   object-fit: cover;
   position: relative;
+  
 }
 
 .flex-container {
@@ -77,10 +78,11 @@ p{
   display: flex;
   width: 100%;
   -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
   
-  .flex-item {
+.flex-item {
   background: black;
   padding: 1%;
   width: 21%;
@@ -114,15 +116,17 @@ a{
 .transition{
   color: white;
   text-decoration: none;
-  transition: 0,5s all ease;
+  transition: 0s all;
 }
 
 .transition:hover{
   text-decoration: none;
   color:rgb(112,111,176);
-  
   font-size: 10vh;
 }
+
 .imgwidth{
   width: 100%;
+  box-shadow: 3px 3px 5px #000000;
 }
+
