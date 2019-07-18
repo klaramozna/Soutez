@@ -7,6 +7,7 @@ h1{
 html, body {
   margin: 0px;
   padding: 0px;
+  background: white;
 }
 
 .header{
@@ -68,7 +69,7 @@ p{
   padding: 0;
   margin: 0;
   list-style: none;
-  background-color: black;
+  background-color: white;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -79,22 +80,25 @@ p{
   justify-content: space-around;
 }
   
-.flex-item {
-    background: black;
-    padding: 1%;
-    width: 21%;
-    height: 25%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    line-height: 25%;
-    color: black;
-    font-size: 3em;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-  }
+  .flex-item {
+  background: black;
+  padding: 1%;
+  width: 21%;
+  height: 25%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 25%;
+  color: black;
+  font-size: 3em;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px #000000;
+}
+
 body{
-  background-color: black
+  background-color:white;
 }
 
 h1{
@@ -116,7 +120,7 @@ a{
 .transition:hover{
   text-decoration: none;
   color:rgb(112,111,176);
-  transition: all 0,5s ease;
+  
   font-size: 10vh;
 }
 .imgwidth{
